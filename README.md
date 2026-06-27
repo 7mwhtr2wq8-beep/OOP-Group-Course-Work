@@ -6,12 +6,6 @@ To use this application, make sure that the following software components are in
 •	Visual Studio Code (or any other Java IDE) with the Java Extension Pack.
 •	JavaFX SDK 26.0.1 (or any other stable version) – download at [gluonhq.com](https://gluonhq.com/products/javafx/)
 •	UCanAccess JDBC driver and dependencies (described further down in this document).
- Setup Instructions
- Clone the repository
-Open terminal, enter the following command and open the resulting directory in VS Code:
-“““bash
-git clone https://github.com/Andrew-ze/First-Bank-Uganda.git
-“““
  Configure JavaFX
 - Download JavaFX SDK package and unzip it to a known directory (for example “C:\javafx-sdk-26.0.1”)
 - Update “.vscode/settings.json” and “.vscode/launch.json” files to point to the “lib” folder in your JavaFX installation. In “launch.json” the updated section should look like this:
